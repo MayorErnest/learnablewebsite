@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Landing from './components/pages/LandingPage/Landing';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
@@ -9,7 +10,7 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/" />
+        <Route path="/" exact component={Landing} />
       </Switch>
       <Footer />
     </Router>

@@ -10,6 +10,7 @@ import {
     FaVimeoV
   } from 'react-icons/fa';
 
+
 function Footer() {
     return (
         <div className="footer-container">
