@@ -1,0 +1,25 @@
+.journalsection1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+}
+
+.journalsection1 button {
+    height: 50px;
+    width: 100px;
+}
+
+.journalsection2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.journalsection2ii {
+    width: 40%;
+}
+
+.grid-button {
+    justify-content: center;
+}

@@ -38,7 +38,7 @@ function LearnableNavbar() {
                             </Link>
                         </li>
                         <li className="nav-itemL">
-                            <Link to='/' className='nav-linksL' onClick={closeMobileMenu}>
+                            <Link to='/journal' className='nav-linksL' onClick={closeMobileMenu}>
                                 JOURNAL
                             </Link>
                         </li>
