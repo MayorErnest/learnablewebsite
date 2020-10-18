@@ -5,6 +5,7 @@ import Softwaredeveloper from '../SoftwareDeveloperPage/Softwaredeveloper';
 import ProductDesigner from '../ProductDesignerPage/ProductDesigner';
 import Apply from '../Apply/Apply';
 import Journal from '../Journal/Journal';
+import Faq from '../Faq/Faq';
 import LearnableNavbar from './LearnableNavbar';
 import './Learnable.css';
 
@@ -19,6 +20,7 @@ function Learnable() {
                     <Route path="/productdesigner" component={ProductDesigner} />
                     <Route path="/apply" component={Apply} />
                     <Route path="/journal" component={Journal} />
+                    <Route path="/faq" component={Faq} />
                 </Switch>
             </Router>
             

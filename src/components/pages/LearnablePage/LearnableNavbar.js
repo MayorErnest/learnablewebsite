@@ -43,7 +43,7 @@ function LearnableNavbar() {
                             </Link>
                         </li>
                         <li className="nav-itemL">
-                            <Link to='/' className='nav-linksL' onClick={closeMobileMenu}>
+                            <Link to='/faq' className='nav-linksL' onClick={closeMobileMenu}>
                                 FAQ
                             </Link>
                         </li>
