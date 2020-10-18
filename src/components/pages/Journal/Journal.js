@@ -3,7 +3,7 @@ import './Journal.css';
 
 function Journal() {
     return (
-        <div>
+        <div className="journalsection">
             <section className="journalsection1">
                 <h1>Journal</h1>
                 <button>CATEGORIES</button>
@@ -24,9 +24,9 @@ function Journal() {
                     euismod commodo donec tincidunt et, aliquam. Eget 
                     scelerisque netus habitant dui porttitor cursus. 
                     Ipsum sem ut tortor ac ullamcorper. Lacus.</p>
-                    <p><img src="./journalimage2.png" alt="journalimage2"/>
-                    David Mong, Apr 9, 2020
-                    </p>
+                    <div><img src="./journalimage2.png" alt="journalimage2"/>
+                        <p>David Mong, Apr 9, 2020</p>
+                    </div>
                 </div>
             </section>
 

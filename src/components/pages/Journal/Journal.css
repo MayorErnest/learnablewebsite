@@ -1,18 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@400;900&display=swap');
+
 .journalsection1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 60vh;
+    background: #EEEEEE;
+    color: #17255A;
 }
 
-.journalsection1 button {
+.journalsection1 h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 4.5em;
+}
+
+.journalsection button {
     height: 50px;
-    width: 100px;
+    border: 2px solid #17255A;
+    border-radius: 7px;
+    padding: 10px;
+    color: #17255A;
+    font-size: .9em;
+    font-weight: 700;
 }
 
 .journalsection2 {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 120px;
+}
+
+
+.journalsection2i img {
+    margin-top: -80px;
 }
 
 
@@ -20,6 +41,41 @@
     width: 40%;
 }
 
+.journalsection2ii h6 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2em;
+    text-decoration: underline;
+    color: #03CEA4;
+    margin-top: -50px;
+    margin-bottom: 90px;
+
+}
+
+.journalsection2ii h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 2.7em;
+    text-transform: capitalize;
+    color: #17255A;
+
+}
+
+.journalsection2ii p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #273043;
+
+}
+
+.journalsection2ii div {
+    display: flex;
+    height: 40px;
+}
+
+.journalsection2ii div img{
+    padding-right: 10px;
+}
 .grid-button {
     display: flex;
     justify-content: center;
