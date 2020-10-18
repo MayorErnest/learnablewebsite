@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .footer-container {
-  font-size: .86em;
+  
+}
+
+.footer-special {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.3em;
+  padding: 100px 0px;
+  background: #EEEEEE;
 }
 
 .section-seven {
-  background: #03CEA4;
+  background: #EAC435;
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 9fr;
@@ -16,17 +25,46 @@
   display: flex;
   align-items: center;
 }
+
 .seven-b {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 90vw;
-  background: #03CEA4;
+  background: #EAC435;
+  font-family: 'Roboto', sans-serif;
+}
+
+.seven-b h1{
+  font-size: 2em;
+  color: #273043;
+}
+
+.seven-b input {
+  border: 0px;
+  border-bottom: 2px solid #273043;
+  padding: 10px 0px;
+  background: none;
+  font-size: 1em;
+  color: #17255A;
+}
+
+.seven-b a {
+  text-decoration: none;
+  color: #17255A;
+}
+
+.seven-b button {
+  padding: 18px;
+  color: #17255A;
+  border: 2px solid #17255A;
+  border-radius: 9px;
+  background: none;
 }
 
 .footer-grid {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
 }
 
 .footer-grid-item {
@@ -60,7 +98,7 @@
 }
 
 .footer-grid-item:nth-of-type(3) > p{
-  padding-top: 80px;
+  padding-top: 20px;
   padding-left: 40px;
 }
 
@@ -72,6 +110,7 @@
   display: flex;
   justify-content: center;
   padding-top: 50px;
+  padding: 0px 0px;
 }
 
 .social-icon-link {
@@ -84,7 +123,8 @@
   display: flex;
   justify-content: center;
   padding-top: 20px;
-  font-size: .68em;
+  font-size: .88em;
+  padding: 30px 0px;
 }
 
 .footer-foot span {

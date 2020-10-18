@@ -28,7 +28,7 @@ function Footer() {
                     <button>SUBSCRIBE</button>
                 </div>
             </section>
-           <section className="footer-grid">
+           <section className="footer-grid footer-special">
                 <div className="footer-grid-item">
                     <ul>
                         <li><a href='/'>Build Software</a></li>
@@ -50,7 +50,7 @@ function Footer() {
                     of all the arms of our product team <p><a href="/">HEAD TO DEVSTUDIO</a></p></p>
                 </div>
            </section>
-           <section className="footer-links">
+           <section className="footer-links footer-special">
            <Link
               className='social-icon-link'
               to='/'
@@ -100,7 +100,7 @@ function Footer() {
               <FaVimeoV />
             </Link>
            </section>
-           <section className="footer-foot">&copy; GENESYS 2020  <span>PRIVACY STATEMENT</span></section>
+           <section className="footer-foot footer-special">&copy; GENESYS 2020  <span>PRIVACY STATEMENT</span></section>
         </div>
     )
 }
