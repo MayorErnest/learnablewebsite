@@ -6,19 +6,59 @@ function Home() {
         <div className="learnable-container">
             <section className="learnable section-a">
                 <div classname="section-a1">
-                    <h1>Coming Soon:<br />Learnable '20</h1>
+                    <h1>Coming Soon: Learnable '20</h1>
                     <p>We've started taking in applications
                          for the next batch<br /> of learnable interns.
-                         Applications are on till the 21st of Febuary</p>
+                         Applications are on till the 21st of Feburary</p>
                 </div>
                 <div className="section-a2">
-                    <h3>Clink link to download...</h3>
+                    <p>Click link to download...</p>
                     <h1><a href="/">Learnable '20 Brochure</a></h1>
                 </div>
             </section>
 
-            <section className="learnable section-b">
-
+            <section className="section-b">
+                <div className="section-b1">
+                    <div>
+                        <h1>Everything is Learnable</h1>
+                        <p>Learnable is the perfect product development 
+                        internship program brought to you by Genesys</p>
+                    </div>
+                    <div>
+                        <div>
+                            <h2><a href="/">Development</a></h2>
+                            <p>What to expect</p>
+                        </div>
+                        <div>
+                            <h2><a href="/">Product Design</a></h2>
+                            <p>What to expect</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="section-b2">
+                    <div className="section-b2i">
+                        <div><img src="./homearrow.png" alt="homearrow"/></div>
+                        <div className="homeimage-container"></div>
+                    </div>
+                    <div className="section-b2ii">
+                        <div>
+                            <h1>305</h1>
+                            <p>Young Software Developers Trained</p>
+                        </div>
+                        <div>
+                            <h1>2100</h1>
+                            <p>Tech Enthusiasts</p>
+                        </div>
+                        <div>
+                            <h1>8</h1>
+                            <p>StartUps Incubated</p>
+                        </div>
+                        <div>
+                            <h1>250</h1>
+                            <p>Small Businesses supported</p>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <section className="learnable section-c">
