@@ -42,25 +42,3 @@
 .section-six {
     background: #17255A;
 }
-
-.section-seven {
-    background: #03CEA4;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 9fr;
-    grid-template-rows: 300px;
-
-}
-
-.seven-a {
-    background: #ffffff;
-    display: flex;
-    align-items: center;
-}
-.seven-b {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 90vw;
-    background: #03CEA4;
-}

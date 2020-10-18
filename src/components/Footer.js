@@ -14,6 +14,20 @@ import {
 function Footer() {
     return (
         <div className="footer-container">
+            <section className="section-seven">
+                <div className="seven-a">
+                    <img src='./landing7.png' alt="landing7"/>
+                </div>
+                <div className="seven-b">
+                    <h1 className="section-text-header">Stay Up To Date On What We<br /> Are Doing
+                     And New Learning Opportunities</h1>
+                    <div className="input-container">
+                        <input placeholder="YOUR EMAIL" />
+                        <p><a href="/">View Privacy Policy</a></p>
+                    </div>
+                    <button>SUBSCRIBE</button>
+                </div>
+            </section>
            <section className="footer-grid">
                 <div className="footer-grid-item">
                     <ul>

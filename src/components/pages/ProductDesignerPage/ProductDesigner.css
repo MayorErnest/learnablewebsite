@@ -1,0 +1,28 @@
+.prodsection-i {
+    display: flex;
+    justify-content: space-around;
+}
+
+.prodsection-i2 {
+    background: #03CEA4;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.prodsection-ii1 {
+    width: 50%;
+}
+
+.prodsection-ii2 {
+    width: 60%;
+}
+
+.prodsection-iii {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prodsection-iii2 {
+    width: 40%;
+}

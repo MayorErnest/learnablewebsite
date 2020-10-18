@@ -1,0 +1,28 @@
+.devsection-i {
+    display: flex;
+    justify-content: space-around;
+}
+
+.devsection-i2 {
+    background: #03CEA4;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.devsection-ii1 {
+    width: 50%;
+}
+
+.devsection-ii2 {
+    width: 60%;
+}
+
+.devsection-iii {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.devsection-iii2 {
+    width: 40%;
+}

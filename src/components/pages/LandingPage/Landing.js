@@ -103,21 +103,6 @@ function Landing() {
                     <p><a href="/">SEE TEAM</a></p>
                 </div>
             </section>
-
-            <section className="section-seven">
-                <div className="seven-a">
-                    <img src='./landing7.png' alt="landing7"/>
-                </div>
-                <div className="seven-b">
-                    <h1 className="section-text-header">Stay Up To Date On What We<br /> Are Doing
-                     And New Learning Opportunities</h1>
-                    <div className="input-container">
-                        <input placeholder="YOUR EMAIL" />
-                        <p><a href="/">View Privacy Policy</a></p>
-                    </div>
-                    <button>SUBSCRIBE</button>
-                </div>
-            </section>
         </div>
     )
 }
