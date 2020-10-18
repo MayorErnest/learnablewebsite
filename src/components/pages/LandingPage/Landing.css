@@ -5,25 +5,51 @@
 }
 
 .section-text {
-    padding-top: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding-left: 70px;
     padding-right: 70px; 
 }
 
-.section-grid {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    grid-gap: 20px;
+.section-text h1 {
+    color: #273043;
+    font-size: 2.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-text p {
+    color: #273043;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1em;
+}
+
+.section-text a {
+    color: #03CEA4;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.6em;
+}
+
+.section-one {
+    padding: 70px;
+    font-family: 'Roboto', sans-serif;
+    color: #17255A;
+}
+
+.section-one h1 {
+    font-size: 2.5em;
+}
+
+.section-one p {
+    font-size: 1.2em;
 }
 
 .one-b {
-    background: #03CEA4;
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 9fr;
     grid-template-rows: 400px;
-
+    padding-top: 70px;
 }
 
 .one-b div:nth-of-type(1) {
@@ -39,6 +65,37 @@
     background: url('./landing1b.png');
 }
 
+.section-five h1{
+    color: #17255A;
+}
+.section-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 20px;
+}
+
+.section-grid .grid-item:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+}
+
+.section-grid .grid-item:nth-of-type(2) a {
+    color:#17255A;
+    font-size: 1.8em;
+    font-family: 'Roboto', sans-serif;
+}
+
+
 .section-six {
     background: #17255A;
+    color: white;
+}
+
+.section-six .section-text h1{
+    color: white;
+}
+
+.section-six .section-text p{
+    color: white;
 }

@@ -35,7 +35,7 @@ function Landing() {
                     in the technology industry.
                     Find out how Genesys is helping them do it.
                     </p>
-                    <p><a href="/">Learn More</a></p>
+                    <p><a href="/">LEARN MORE</a></p>
                 </div>
             </section>
 
@@ -47,7 +47,7 @@ function Landing() {
                     Find out how our co working spaces can help you enjoy
                      the work that you do.
                     </p>
-                    <p><a href="/">Learn More</a></p>
+                    <p><a href="/">LEARN MORE</a></p>
                 </div>
                 <div className="section-image">
                     <img src='./landing3.png' alt="landing3"/>
@@ -65,7 +65,7 @@ function Landing() {
                     early stage businesses. 
                     We can help you rise above it all.
                     </p>
-                    <p><a href="/">Learn More</a></p>
+                    <p><a href="/">LEARN MORE</a></p>
                 </div>
             </section>
 
@@ -75,7 +75,7 @@ function Landing() {
                         <img src="./landinggrid1.png" alt="landinggrid" />
                     </div>
                     <div className="grid-item">
-                        <h3><a href="/">Genesys Ignite</a></h3>
+                        <h3><a href="/">Genesys <br />Ignite</a></h3>
                     </div>
                     <div className="grid-item">
                         <img src="./landinggrid2.png" alt="landinggrid" />
