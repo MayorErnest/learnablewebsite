@@ -41,7 +41,7 @@ function Apply() {
                     proceed to download our prep curriculum that contains 
                     everything you need to prepare for the physical and 
                     technical assessment.</p>
-                    <p><a href="/">Apply here</a></p>
+                    <p><a href="/">APPLY HERE</a></p>
                     <h1>Phone Call Interviews</h1>
                     <p>We will reach out to you to discuss possible opportunities,
                     ascertain where you fit in with us, and answer any questions 
