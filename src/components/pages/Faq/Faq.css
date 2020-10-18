@@ -1,4 +1,11 @@
 .faqsection1 {
     display: flex;
     justify-content: space-around;
+    padding: 90px 0px;
+}
+
+.faqsection1 h1 {
+    font-size: 4.0em;
+    color: #17255A;
+    font-family: 'Roboto', sans-serif;
 }

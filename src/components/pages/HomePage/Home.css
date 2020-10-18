@@ -90,6 +90,22 @@
     flex-direction: column;
     align-items: center;
 }
+.section-m2 ul{
+    list-style: none;
+}
+
+.section-m2 ul p {
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #273043;
+
+}
+
+.section-m2 ul a {
+    color:#273043;
+    font-size: 1.9em;
+
+}
 
 .section-n2 {
     display: grid;
