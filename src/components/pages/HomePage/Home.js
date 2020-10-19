@@ -221,7 +221,7 @@ function Home() {
                             <img src="./sectionjgrid5.png" />
                         </div>
                         <h1>Ezra</h1>
-                        <p>Ass. Learnable Coordinator</p>
+                        <p>Ass. Learnable <br />Coordinator</p>
                     </div>
                     <div className="section-j1grid">
                         <div>

@@ -130,3 +130,60 @@
 .footer-foot span {
   padding-left: 20px;
 }
+
+@media screen and (max-width: 960px) {
+
+.section-seven {
+  display: flex;
+  
+  }
+
+.seven-a {
+  visibility: hidden;
+}
+
+.seven-b {
+  flex-direction: column;
+  height: 60vh;
+  width: 100%;
+}
+
+.seven-b h1 {
+  padding-left: 0px;
+  font-size: 1.5em;
+}
+
+.input-container {
+  font-size: 1.2em;
+}
+
+.seven-b input {
+  width: 100vw;
+
+}
+
+.footer-grid {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+.footer-grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer-grid-item:nth-of-type(2)  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} 
+
+.footer-grid-item:nth-of-type(3)  {
+  flex-direction: column;
+} 
+
+}
