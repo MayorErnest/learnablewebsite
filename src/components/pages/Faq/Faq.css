@@ -9,3 +9,20 @@
     color: #17255A;
     font-family: 'Roboto', sans-serif;
 }
+
+@media screen and (max-width: 960px) {
+    .faqsection1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .faqsection1 h1 {
+        font-size: 2.5em;
+        order: 2;
+    }
+
+    .faqsection1 img {
+        width: 100%;
+    }
+}
