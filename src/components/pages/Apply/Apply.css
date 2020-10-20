@@ -50,3 +50,39 @@
     font-family: 'Nunito', sans-serif;
     font-size: .9em;
 }
+
+
+@media screen and (max-width: 960px) {
+    .appsection-i {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .appsection-i1 {
+        width: 100%;
+        text-align: center;
+        order: 2;
+    }
+
+    .appsection-i1 h1{
+        font-size: 2.5em;
+        text-align: center;
+    }
+    .appsection-i2 img {
+        width: 100%;
+    }
+
+    .appsection-ii1 img {
+        width: 100%;
+    }
+    
+    .appsection-ii2 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .appsection-ii2 h1{
+        font-size: 1.8em;
+    }
+}
