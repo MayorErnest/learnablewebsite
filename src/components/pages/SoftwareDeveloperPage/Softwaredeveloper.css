@@ -61,3 +61,59 @@
 .devsection-iii2 {
     width: 40%;
 }
+
+@media screen and (max-width: 960px) {
+    .devsection-i {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .devsection-i1 {
+        width: 100%;
+        order: 2;
+    }
+
+    .devsection-i h1 {
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    .devsection-i2 {
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .devsection-i2 img{
+        width: 300px;
+    }
+
+    .devsection-ii {
+        padding-left: 10px;
+    }
+
+    .devsection-ii1 {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .devsection-ii2 {
+        width: 100%;
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    .devsection-iii1 img {
+        width: 100%;
+    }
+
+    .devsection-iii h1{
+        font-size: 1.9em;
+    }
+    
+
+    .devsection-iii2 {
+        width: 100%;
+        text-align: center;
+    }
+}
